@@ -1,0 +1,14 @@
+{
+  "package_name": "open_manipulator_msgs",
+  "non_idl_tuples": [
+    "/home/srooney/Documents/rbe500/ros_500/src/open_manipulator_msgs:msg/JointPosition.msg",
+    "/home/srooney/Documents/rbe500/ros_500/src/open_manipulator_msgs:msg/KinematicsPose.msg",
+    "/home/srooney/Documents/rbe500/ros_500/src/open_manipulator_msgs:msg/OpenManipulatorState.msg",
+    "/home/srooney/Documents/rbe500/ros_500/src/open_manipulator_msgs:srv/GetJointPosition.srv",
+    "/home/srooney/Documents/rbe500/ros_500/src/open_manipulator_msgs:srv/GetKinematicsPose.srv",
+    "/home/srooney/Documents/rbe500/ros_500/src/open_manipulator_msgs:srv/SetJointPosition.srv",
+    "/home/srooney/Documents/rbe500/ros_500/src/open_manipulator_msgs:srv/SetKinematicsPose.srv",
+    "/home/srooney/Documents/rbe500/ros_500/src/open_manipulator_msgs:srv/SetDrawingTrajectory.srv",
+    "/home/srooney/Documents/rbe500/ros_500/src/open_manipulator_msgs:srv/SetActuatorState.srv"
+  ]
+}

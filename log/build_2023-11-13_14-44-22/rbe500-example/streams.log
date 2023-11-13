@@ -1,0 +1,71 @@
+[0.038s] Invoking command in '/home/srooney/Documents/rbe500/ros_500/build/rbe500-example': AMENT_PREFIX_PATH=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/srooney/Documents/rbe500/ros_500/src/rbe500-example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/srooney/Documents/rbe500/ros_500/install/rbe500-example
+[0.095s] -- The C compiler identification is GNU 11.4.0
+[0.158s] -- The CXX compiler identification is GNU 11.4.0
+[0.164s] -- Detecting C compiler ABI info
+[0.234s] -- Detecting C compiler ABI info - done
+[0.249s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.249s] -- Detecting C compile features
+[0.250s] -- Detecting C compile features - done
+[0.255s] -- Detecting CXX compiler ABI info
+[0.361s] -- Detecting CXX compiler ABI info - done
+[0.375s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.375s] -- Detecting CXX compile features
+[0.376s] -- Detecting CXX compile features - done
+[0.379s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.544s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.600s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.623s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.686s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.689s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.696s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.707s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.722s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.777s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.779s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.864s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.896s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.940s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.947s] -- Looking for pthread.h
+[0.998s] -- Looking for pthread.h - found
+[0.999s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.052s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.053s] -- Found Threads: TRUE  
+[1.191s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.312s] -- Found open_manipulator_msgs: 2.2.0 (/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake)
+[1.428s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.486s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.486s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/srooney/Documents/rbe500/ros_500/src/rbe500-example/include>;/home/srooney/Documents/rbe500/ros_500/src/rbe500-example/open_manipulator_msgs/srv
+[1.486s] -- Configured cppcheck exclude dirs and/or files: 
+[1.486s] -- Added test 'lint_cmake' to check CMake code style
+[1.487s] -- Added test 'uncrustify' to check C / C++ code style
+[1.487s] -- Configured uncrustify additional arguments: 
+[1.487s] -- Added test 'xmllint' to check XML markup files
+[1.488s] -- Configuring done
+[1.497s] -- Generating done
+[1.498s] -- Build files have been written to: /home/srooney/Documents/rbe500/ros_500/build/rbe500-example
+[1.508s] Invoked command in '/home/srooney/Documents/rbe500/ros_500/build/rbe500-example' returned '0': AMENT_PREFIX_PATH=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/srooney/Documents/rbe500/ros_500/src/rbe500-example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/srooney/Documents/rbe500/ros_500/install/rbe500-example
+[1.510s] Invoking command in '/home/srooney/Documents/rbe500/ros_500/build/rbe500-example': AMENT_PREFIX_PATH=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/srooney/Documents/rbe500/ros_500/build/rbe500-example -- -j16 -l16
+[1.546s] [ 50%] [32mBuilding CXX object CMakeFiles/basic_robot_control.dir/src/basic_robot_control.cpp.o[0m
+[4.544s] [100%] [32m[1mLinking CXX executable basic_robot_control[0m
+[4.681s] [100%] Built target basic_robot_control
+[4.694s] Invoked command in '/home/srooney/Documents/rbe500/ros_500/build/rbe500-example' returned '0': AMENT_PREFIX_PATH=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/srooney/Documents/rbe500/ros_500/build/rbe500-example -- -j16 -l16
+[4.723s] Invoking command in '/home/srooney/Documents/rbe500/ros_500/build/rbe500-example': AMENT_PREFIX_PATH=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/srooney/Documents/rbe500/ros_500/build/rbe500-example
+[4.728s] -- Install configuration: ""
+[4.728s] -- Execute custom install script
+[4.728s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/rbe500-example/lib/rbe500-example/basic_robot_control
+[4.740s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/rbe500-example/share/ament_index/resource_index/package_run_dependencies/rbe500-example
+[4.750s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/rbe500-example/share/ament_index/resource_index/parent_prefix_path/rbe500-example
+[4.761s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/rbe500-example/share/rbe500-example/environment/ament_prefix_path.sh
+[4.768s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/rbe500-example/share/rbe500-example/environment/ament_prefix_path.dsv
+[4.774s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/rbe500-example/share/rbe500-example/environment/path.sh
+[4.780s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/rbe500-example/share/rbe500-example/environment/path.dsv
+[4.790s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/rbe500-example/share/rbe500-example/local_setup.bash
+[4.796s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/rbe500-example/share/rbe500-example/local_setup.sh
+[4.803s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/rbe500-example/share/rbe500-example/local_setup.zsh
+[4.809s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/rbe500-example/share/rbe500-example/local_setup.dsv
+[4.815s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/rbe500-example/share/rbe500-example/package.dsv
+[4.823s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/rbe500-example/share/ament_index/resource_index/packages/rbe500-example
+[4.829s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/rbe500-example/share/rbe500-example/cmake/rbe500-exampleConfig.cmake
+[4.840s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/rbe500-example/share/rbe500-example/cmake/rbe500-exampleConfig-version.cmake
+[4.846s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/rbe500-example/share/rbe500-example/package.xml
+[4.855s] Invoked command in '/home/srooney/Documents/rbe500/ros_500/build/rbe500-example' returned '0': AMENT_PREFIX_PATH=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/srooney/Documents/rbe500/ros_500/build/rbe500-example

@@ -1,0 +1,56 @@
+[0.044s] Invoking command in '/home/srooney/Documents/rbe500/ros_500/build/open_manipulator_x_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/srooney/Documents/rbe500/ros_500/src/open_manipulator/open_manipulator_x_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description
+[0.086s] -- The C compiler identification is GNU 11.4.0
+[0.133s] -- The CXX compiler identification is GNU 11.4.0
+[0.140s] -- Detecting C compiler ABI info
+[0.195s] -- Detecting C compiler ABI info - done
+[0.202s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.202s] -- Detecting C compile features
+[0.202s] -- Detecting C compile features - done
+[0.205s] -- Detecting CXX compiler ABI info
+[0.268s] -- Detecting CXX compiler ABI info - done
+[0.276s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.276s] -- Detecting CXX compile features
+[0.276s] -- Detecting CXX compile features - done
+[0.279s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.418s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.468s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.543s] -- Configuring done
+[0.545s] -- Generating done
+[0.546s] -- Build files have been written to: /home/srooney/Documents/rbe500/ros_500/build/open_manipulator_x_description
+[0.549s] Invoked command in '/home/srooney/Documents/rbe500/ros_500/build/open_manipulator_x_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/srooney/Documents/rbe500/ros_500/src/open_manipulator/open_manipulator_x_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description
+[0.551s] Invoking command in '/home/srooney/Documents/rbe500/ros_500/build/open_manipulator_x_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/srooney/Documents/rbe500/ros_500/build/open_manipulator_x_description -- -j16 -l16
+[0.577s] Invoked command in '/home/srooney/Documents/rbe500/ros_500/build/open_manipulator_x_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/srooney/Documents/rbe500/ros_500/build/open_manipulator_x_description -- -j16 -l16
+[0.606s] Invoking command in '/home/srooney/Documents/rbe500/ros_500/build/open_manipulator_x_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/srooney/Documents/rbe500/ros_500/build/open_manipulator_x_description
+[0.612s] -- Install configuration: ""
+[0.613s] -- Execute custom install script
+[0.614s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/launch/.DS_Store
+[0.624s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/launch/open_manipulator_x_rviz.launch.py
+[0.635s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link1.stl
+[0.646s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link2.stl
+[0.657s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link3.stl
+[0.668s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link4.stl
+[0.677s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link5.stl
+[0.686s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link_grip_l.stl
+[0.694s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/meshes/chain_link_grip_r.stl
+[0.705s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/rviz/open_manipulator_x.rviz
+[0.715s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/urdf/materials.xacro
+[0.726s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/urdf/open_manipulator_x.gazebo.xacro
+[0.734s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/urdf/open_manipulator_x.transmission.xacro
+[0.743s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/urdf/open_manipulator_x.urdf.xacro
+[0.752s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/urdf/open_manipulator_x_robot.urdf.xacro
+[0.763s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/ament_index/resource_index/package_run_dependencies/open_manipulator_x_description
+[0.773s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/ament_index/resource_index/parent_prefix_path/open_manipulator_x_description
+[0.782s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/environment/ament_prefix_path.sh
+[0.792s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/environment/ament_prefix_path.dsv
+[0.803s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/environment/path.sh
+[0.813s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/environment/path.dsv
+[0.823s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/local_setup.bash
+[0.831s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/local_setup.sh
+[0.840s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/local_setup.zsh
+[0.849s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/local_setup.dsv
+[0.859s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/package.dsv
+[0.867s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/ament_index/resource_index/packages/open_manipulator_x_description
+[0.878s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/cmake/open_manipulator_x_descriptionConfig.cmake
+[0.886s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/cmake/open_manipulator_x_descriptionConfig-version.cmake
+[0.894s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/open_manipulator_x_description/share/open_manipulator_x_description/package.xml
+[0.903s] Invoked command in '/home/srooney/Documents/rbe500/ros_500/build/open_manipulator_x_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/srooney/Documents/rbe500/ros_500/build/open_manipulator_x_description

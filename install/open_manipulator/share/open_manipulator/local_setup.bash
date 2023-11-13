@@ -1,0 +1,1 @@
+/home/srooney/Documents/rbe500/ros_500/build/open_manipulator/ament_cmake_environment_hooks/local_setup.bash

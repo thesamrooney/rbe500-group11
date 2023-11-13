@@ -1,0 +1,70 @@
+[0.172s] Invoking command in '/home/srooney/Documents/rbe500/ros_500/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/srooney/Documents/rbe500/ros_500/src/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk
+[0.216s] -- The C compiler identification is GNU 11.4.0
+[0.268s] -- The CXX compiler identification is GNU 11.4.0
+[0.275s] -- Detecting C compiler ABI info
+[0.331s] -- Detecting C compiler ABI info - done
+[0.337s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.338s] -- Detecting C compile features
+[0.338s] -- Detecting C compile features - done
+[0.341s] -- Detecting CXX compiler ABI info
+[0.401s] -- Detecting CXX compiler ABI info - done
+[0.408s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.408s] -- Detecting CXX compile features
+[0.409s] -- Detecting CXX compile features - done
+[0.411s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.553s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.607s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.688s] -- Configuring done
+[0.693s] -- Generating done
+[0.695s] -- Build files have been written to: /home/srooney/Documents/rbe500/ros_500/build/dynamixel_sdk
+[0.699s] Invoked command in '/home/srooney/Documents/rbe500/ros_500/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/srooney/Documents/rbe500/ros_500/src/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk
+[0.701s] Invoking command in '/home/srooney/Documents/rbe500/ros_500/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/srooney/Documents/rbe500/ros_500/build/dynamixel_sdk -- -j16 -l16
+[0.735s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[0.735s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[0.736s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[0.736s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[0.736s] [ 90%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[0.737s] [ 90%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[0.737s] [ 90%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[0.737s] [ 90%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[0.737s] [ 90%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[1.214s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[1.303s] [100%] Built target dynamixel_sdk
+[1.313s] Invoked command in '/home/srooney/Documents/rbe500/ros_500/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/srooney/Documents/rbe500/ros_500/build/dynamixel_sdk -- -j16 -l16
+[1.344s] Invoking command in '/home/srooney/Documents/rbe500/ros_500/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/srooney/Documents/rbe500/ros_500/build/dynamixel_sdk
+[1.348s] -- Install configuration: ""
+[1.349s] -- Execute custom install script
+[1.349s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[1.355s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[1.362s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[1.367s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[1.373s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[1.379s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[1.385s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[1.392s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[1.398s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[1.404s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[1.410s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[1.416s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[1.423s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[1.429s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[1.435s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[1.443s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[1.449s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[1.455s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[1.461s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[1.468s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[1.475s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[1.481s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[1.488s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[1.494s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[1.500s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[1.506s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[1.512s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[1.518s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[1.524s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.531s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[1.538s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[1.544s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[1.550s] -- Symlinking: /home/srooney/Documents/rbe500/ros_500/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[1.559s] Invoked command in '/home/srooney/Documents/rbe500/ros_500/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/srooney/Documents/rbe500/ros_500/build/dynamixel_sdk
